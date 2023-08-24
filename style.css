@@ -1,0 +1,657 @@
+*{
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.nav{
+    position: fixed;
+    background-color: #ffffff;
+    z-index: 9999;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: 'Roboto';
+}
+.Header-main{
+    top: 0;
+    position: fixed;
+    margin-top: 8px;
+    width: 100%;
+    /* position: sticky; */
+    background: #ffffff;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+}
+.Header{
+    width: 1349px;
+    display: flex;
+    justify-content: center;
+}
+.Header-inner{
+    width: 1349px;
+    display: flex;
+    justify-content: center;
+}
+.Container{
+    width: 1349px;
+    display: flex;
+}
+.Header-logo-div{
+    /* margin-top: 10px; */
+    width: 19%;
+    padding-top: 16px;
+}
+.Line{
+    z-index: 11;
+    /* margin-top: 100px; */
+    width: 100%;
+    margin-top: 101px;
+    box-sizing: border-box;
+    /* position: fixed; */
+    box-shadow: 0px 5px 12px 0px rgb(0 0 0 / 47%);
+    background: linear-gradient(90deg, #ffd100 0%, red 38%, #f979e4 38%, #b300ff 70%, #00ff10 70%, #05830d 90%, #0a62f6 90%, #0b0583 100%);
+    box-shadow: 0px 5px 12px 0px rgb(0 0 0 / 47%);
+    /* margin-top: 20px; */
+    height: 15px;
+}
+.Header-logo-div a{
+    color: #3273dc;
+    cursor: pointer;
+    text-decoration: none;
+}
+.Header-logo{
+    width: 258.91px;
+    height: 65.86px;
+}
+.Header-menu-div{
+    width: 592px;
+    display: flex;
+    justify-content: end;
+}
+.Header-menu{
+    width: 547px;
+    margin-top: 16px;
+}
+.Header-menu-list{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 300;
+    font-size: 14.5px;
+    font-family: 'Roboto';
+    list-style: none;
+    /* color: #301934; */
+    color: #4a4a4a;
+    width: 326.67px;
+}
+.Header-menu-item{
+    display: flex;
+    vertical-align: top;
+    display: inline-flex;
+    font-weight: 300;
+    font-size: 14px;
+    font-family: 'Roboto';
+}
+.Menu-inner-most{
+    font-weight: 300;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 0;
+    /* color: #301934; */
+    color: #4a4a4a;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Roboto';
+}
+.Menu-down-icon{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 15px;
+    padding-top: 3px;
+}
+.Header-btn-div{
+    width: 499.03px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.Header-btn-right-div{
+    display: flex;
+    justify-content: flex-start;
+    width: 94.94px;
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+.Header-btn-right{
+    border-radius: 4px;
+    border: 0;
+    outline: none;
+    background-color: #ffffff;
+    padding: 5px 26px;
+    margin-top: 24px;
+    font-size: 13px;
+    height: 40px;
+    padding-bottom: 6px;
+    width: 84.94px;
+    /* padding-left: 25px; */
+    letter-spacing: -0.1px;
+    color: #ffffff;
+    box-sizing: border-box;
+    font-weight: 500;
+    background: linear-gradient(90deg, #790975 0%, #ff00d7 100%);
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.Header-left-btn{
+    border-radius: 4px;
+    border: 0;
+    outline: none;
+    background-color: #ffffff;
+    padding: 5px 26px;
+    margin-top: 24px;
+    font-size: 13px;
+    height: 40px;
+    padding-top: 4px;
+    color: #ffffff;
+    font-weight: 500;
+    width: 164.59px;
+    box-sizing: border-box;
+    padding-left: 25px;
+    background: linear-gradient(90deg, #790975 0%, #ff00d7 100%);
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+  /* ------------------- Header section starts from here ----------------- */
+
+    
+
+   /* ---------------------- Section 2 starts from here ---------------- */
+
+  .Colored-line-div{
+    display: flex;
+    justify-content: center;
+  }
+  .Colored-line{
+    width: 150px;
+    height: 15px;
+    background: linear-gradient(90deg, magenta 0%, purple 100%);
+  }
+
+   /* -------------------- Section 2 ends here --------------------- */
+
+   /* ----------------- Section 3 starts from here -------------------- */
+
+   .FC-main{
+       display: flex;
+       justify-content: center;
+        width: 100%;
+        flex-direction: column;
+   }
+   .Article-1{
+       width: 1232px;
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+   }
+   .FC-heading-div{
+       display: flex;
+       justify-content: center;
+       margin-top: 29px;
+       width: 485.8px;
+   }
+   .FC-heading{
+        font-size: 35.2px;  
+        font-weight: 300;
+        display: inline-block;
+        font-family: 'Roboto';
+        color: #00008b;
+        margin: 0px;
+   }
+   .FC-row-div{
+       margin-top: 31px;
+       width: 1349px;
+       display: flex;
+       justify-content: center;
+   }
+   .FC-row-inner{
+       width: 1230.16px;
+       display: flex;
+       overflow-x: hidden;
+   }
+   .FC-arrow{
+       display: flex;
+       cursor: pointer;
+       width: 52.58px;
+        height: 299.33px;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+   }
+   .FC-arrow-inner{
+       color: pink;
+       width: 28.58px;
+       height: 80px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       align-content: center;
+   }
+   .FC-data-row{
+        width: 1125px;
+        display: flex;
+        flex-flow: row;
+        overflow: hidden;
+   }
+   .FC-row-1{
+        display: flex;
+        flex-flow: column;
+        width: 225px;
+        align-items: center;
+   }
+   .FC-row-inner-1{
+        display: flex;
+        z-index: 5000;
+   }
+   .FC-row-inner-2{
+    background: linear-gradient(90deg, darkblue 0%, blue 100%);
+    width: 215px;
+    height: 215px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .Row-inner-2-1{
+    background-color: lightgray;
+    width: 205px;
+    height: 205px;
+   }
+   .FC-row-inner-3{
+       width: 215px;
+       display: flex;
+       justify-content: end;
+   }
+   .FC-row-heading{
+       font-size: 16px;
+       font-weight: 500;
+       font-family: 'Roboto';
+        color: #4A4A4A;
+        margin: 0px;
+        width: 210px;
+        margin-top: 5px;
+        line-height: 1.5;
+   }
+   .FC-sub-heading-txt{
+        font-size: 16px;
+        color: #4A4A4A;
+        font-family: 'Roboto';
+        margin-top: 4px;
+   }
+   .FC-btn-div{
+       display: flex;
+       justify-content: center;
+       width: 1346px;
+       margin-top: 19px;
+   }
+   .FC-btn{
+    background: linear-gradient(90deg, red 0%, orange 100%);
+    padding: 5px 26px;
+    border-radius: 3px;
+    font-size: 13px;
+    height: 40px;
+    color: #ffffff;
+    font-weight: 500;
+    border: none;
+    padding-top: 4px;
+    padding-left: 25.5px;
+    box-sizing: border-box;
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+   }
+   /* ------------ Section 3 ends here ------------------ */
+
+   /* Section 4 inline css */
+
+    /* -------------------- Section 5 starts from here ----------------- */
+   .Campaign-outer{
+       display: flex;
+       justify-content: center;
+   }
+    .Campaign-main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 1280px;
+        align-items: center;
+    }
+    .C-para-1{
+        display: flex;
+        justify-content: center;
+        color: #363636;
+        font-size: 32px;
+        font-weight: 300;
+        line-height: 1.125;
+        word-break: break-word;
+        margin: 0px;
+    }
+    #C-heading-1{
+        margin-top: 24px;
+    }
+    .C-para-2{
+        display: flex;
+        justify-content: center;
+        width: 1280px;
+    }
+    .C-para-3{
+        display: flex;
+        justify-content: center;
+        font-size: 22px;
+        font-weight: 300;
+        font-family: 'Roboto';
+        text-align: center;
+        color: #4A4A4A;
+        margin: 0px;
+        width: 1180px;
+        line-height: 1.5;
+        margin-top: 24px;
+    }
+    .C-col-main{
+        display: flex;
+        width: 1232px;
+        justify-content: space-around;
+        margin-top: 33px;
+    }
+    .C-col-inner{
+        display: flex;
+        flex-direction: column;
+        width: 288px;
+
+    }
+    .C-col-heading{
+        color: #39b54a;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0px;
+    }
+    .C-col-inner-t{
+        margin-top: 3px;
+    }
+    .C-col-txt{
+        font-weight: 300;
+        color: #4A4A4A;
+        font-size: 16px;
+        font-family: 'Roboto';
+        margin: 0px;
+        line-height: 1.5;
+    }
+    .C-col-inner-p{
+        width: 288px;
+        height: 220px;
+        background: linear-gradient(90deg, red 0%, orange 100%);
+        clip-path: polygon(50% 100%, 0 0, 100% 0);
+        width: 100%;
+        height: 220px;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+    .C-col-picture-div{
+        width: 70px;
+        height: 115px;
+        margin-top: 24px;
+    }
+    /* ------------ Section 5 ends here ------------------ */
+
+    /* -------------------- Section 6 starts from here ----------------- */
+    .Message-main-div{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 308px;
+        background: linear-gradient(90deg, purple 0%, magenta 100%);
+        margin-top: 34px;
+    }
+    .Message-inner-div{
+        width: 1232px;
+        margin-top: 57px;
+    }
+    .Message-h1{
+        font-size: 48px;
+        font-weight: 300;
+        font-family: 'Roboto';
+        color: #ffffff;
+        margin: 0px;
+    }
+    .Message-txt-1{
+        font-weight: 300;
+        color: #ffffff;
+        font-family: 'Roboto';
+        font-size: 16px;
+        margin: 0px;
+        line-height: 1.5;
+    }
+    .Message-txt-div{
+        margin-top: 7px;
+    }
+    .Message-last-div{
+        margin-top: 18px;
+    }
+    .Message-last{
+        font-family: 'Roboto';
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 300;
+        margin: 0px;
+    }
+
+    /* ------------ Section 5 ends here ------------------ */
+
+    /* Section 6 inline css */
+
+    /* ------------- Section 7 starts from here ---------------- */
+    .Partners{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .Parterns-inner{
+        display: flex;
+        flex-direction: column;
+        width: 1232px;
+    }
+    .Partner-h1-div{
+        display: flex;
+        justify-content: center;
+        margin-top: 23px;
+    }
+    .Partner-h2-div{
+        display: flex;
+        justify-content: center;
+        margin-top: -2px;
+    }
+    .Partner-h1{
+        font-size: 32px;
+        font-family: 'Roboto';
+        color: #363636;
+        margin: 0px;
+        font-weight: 300;
+    }
+    .Partner-txt-div{
+        display: flex;
+        justify-content: center;
+        margin-top: 23px;
+    }
+    .Partner-txt{
+        font-size: 22px;
+        font-weight: 300;
+        font-family: 'Roboto';
+        color: #4A4A4A;
+        margin: 0px;
+        text-align: center;
+        width: 1200px;
+        line-height: 1.5;
+    }
+    .Logos-main-div{
+        display: flex;
+        margin-top: 24px;
+    }
+    .Logo-div{
+        width: 308px;
+        height: 160px;
+    }
+
+     /* ------------ Section 7 ends here ------------------ */
+
+      /* ------------ Footer starts from here ------------------ */
+    .Footer-main{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 24px;
+        height: 402px;
+        background: linear-gradient(90deg, #0000a3 0%, #4675ff 100%);
+    }
+    .Footer-inner{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        width: 998.5px;
+        width: 1112.5px;
+        margin-top: 33px;
+    }
+    .Footer-main-menu{
+        display: flex;
+        width: 998.5px;
+    }
+    .Footer-log{
+        display: flex;
+        width: 294px;
+    }
+    .footer-menu-1{
+        width: 284.3px;
+        margin-top: -4px;
+    }
+    .footer-menu-2{
+        margin-top: -4px;
+        width: 284.3px;
+
+    }
+    .footer-menu-3{
+        margin-top: -4px;
+        width: 135.3px;
+    }
+    .Menu-1-a{
+        font-weight: 300;
+        color: #ffffff;
+        text-decoration: none;
+        font-family: 'Roboto';
+        font-size: 13px;
+        margin: 0px;
+
+    }
+    .Col-1-item{
+        list-style: none;
+        line-height: 25px;
+        margin: 0px;
+    }
+    .Footer-col-1{
+        margin: 0px;
+        padding: 0px;
+    }
+    .Footer-line{
+        border-bottom: 1px solid white;
+        margin-top: 47px;
+        width: 998.5px;
+    }
+    .Copy-right{
+        margin-top: 32px;
+    }
+    .Footer-copy{
+        display: flex;
+    }
+    .Social-main{
+        width: 221px;
+        display: flex;
+        color: white;
+        margin-top: 36.6px;
+    }
+    .Social-inner{
+        /* margin-top: 25px; */
+        width: 38px;
+        font-size: 16px;
+        color: #fff;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    .F-copy{
+        font-size: 12px;
+        font-family: 'Roboto';
+        color: #ffffff;
+        font-weight: 300;
+    }
+
+      /* ------------ Footer ends here ------------------ */
+
+      @media (max-width: 1200px) and (min-width: 769px){
+          .Line{
+              display: none;
+          }
+          .nav{
+              position: fixed;
+              z-index: 9999;
+              top: 0px;
+          }
+          .Header-main, .Header, .Header-inner, .Container{
+              height: 97.06px;
+              width: 1100px;
+              margin: 0px;
+              padding: 0px;
+              top: 0px;
+          }
+          .Header-menu-div{
+              display: none;
+          }
+          .Header-btn-right-div{
+              display: none;
+          }
+          .Header-logo-div{
+              width: 383.67px;
+              height: 97.23px;
+          }
+          .Header-logo-div img{
+            width: 383.67px;
+            height: 97.23px;
+            margin-top: -3px;
+        }
+        .FC-main{
+            width: 1151px;
+        }
+        .Article-1{
+            width: 1151px;
+        }
+        .FC-btn-div{
+            width: 1151px;
+        }
+        .FC-row-inner{
+            width: 1151px;
+        }
+        #FC-last-row{
+            display: none;
+        }
+        .FC-data-row{
+            width: 900px;
+        }
+        .FC-row-div{
+            width: 1151px;
+        }
+        .C-col-main{
+            width: 1195px;
+        }
+      }
